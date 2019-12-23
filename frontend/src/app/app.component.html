@@ -8,8 +8,8 @@
           class="format-image"
           src="../assets/draft-board.jpg"
           alt="Smiley face"
-          height="100"
-          width="150"
+          height="150"
+          width="225"
         />
         <mat-form-field class="format-mat-form">
           <mat-select [(value)]="selected">
@@ -21,6 +21,13 @@
 
       <mat-card class="format-mat-card">
         <span class="mat-card-header">WORST DRAFT NIGHT</span>
+        <img
+          class="format-image"
+          src="../assets/draft-board.jpg"
+          alt="Smiley face"
+          height="150"
+          width="225"
+        />
         <mat-form-field class="format-mat-form">
           <mat-select [(value)]="selected">
             <mat-option>select...</mat-option>
@@ -111,7 +118,87 @@
           </mat-select>
         </mat-form-field>
       </mat-card>
+
+      <div class="btn-group">
+        <button (click)="rickRoll()" mat-raised-button class="green">
+          Submit
+        </button>
+      </div>
     </mat-tab>
-    <mat-tab label="Stats"> Content 2 </mat-tab>
+
+    <mat-tab label="Stats">
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin">
+          <mat-icon
+            class="format-mat-icon gold"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >goat</mat-icon
+          >
+          FANTASY CHAMPION
+        </span>
+        <h2>Cosby's Slepers</h2>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin">
+          <mat-icon
+            class="format-mat-icon"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >accessible</mat-icon
+          >FANTASY LOSER</span
+        >
+        <h2>Tyreek's Toddlers</h2>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          ><mat-icon
+            class="format-mat-icon"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >restaurant</mat-icon
+          >SCORING CHAMP</span
+        >
+        <h2>Kareem Pies</h2>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          ><mat-icon
+            class="format-mat-icon"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >flight_land</mat-icon
+          >SCORING LOSER</span
+        >
+        <h2>Daddys Home</h2>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          ><mat-icon
+            class="format-mat-icon"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >mood_bad</mat-icon
+          >MOST AGAINST</span
+        >
+        <h2>Tyreek's Toddlers</h2>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          ><mat-icon
+            class="format-mat-icon"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >rowing</mat-icon
+          >LONGEST WINNING STREAK</span
+        >
+        <h2>W8 - Birds of War</h2>
+      </mat-card>
+    </mat-tab>
   </mat-tab-group>
 </div>

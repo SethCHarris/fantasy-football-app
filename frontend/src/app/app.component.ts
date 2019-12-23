@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'frontend';
   selected = 'option2';
+
+  rickRoll() {
+    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+  }
 }

@@ -40,5 +40,26 @@
 }
 
 .format-image {
-  border: 1px solid black;
+  border-radius: 1px;
+  margin-top: 1rem;
+}
+
+.format-mat-icon {
+  margin-right: 1rem;
+  margin-top: -0.2rem;
+}
+
+.gold {
+  color: gold;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: green;
+  color: white;
 }
