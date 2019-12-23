@@ -1,1 +1,117 @@
-<mat-card>Friendly Fantasy awards coming soon. Ligma nuts.</mat-card>
+<h1 class="header">BSI</h1>
+<div class="wrapper">
+  <mat-tab-group mat-stretch-tabs>
+    <mat-tab label="Vote">
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header">BEST DRAFT NIGHT</span>
+        <img
+          class="format-image"
+          src="../assets/draft-board.jpg"
+          alt="Smiley face"
+          height="100"
+          width="150"
+        />
+        <mat-form-field class="format-mat-form">
+          <mat-select [(value)]="selected">
+            <mat-option>select...</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header">WORST DRAFT NIGHT</span>
+        <mat-form-field class="format-mat-form">
+          <mat-select [(value)]="selected">
+            <mat-option>select...</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin">FANTASY MVP</span>
+        <mat-form-field class="format-mat-form">
+          <input matInput placeholder="Enter a players name" value="" />
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin">BIGGEST BUST</span>
+        <mat-form-field class="format-mat-form">
+          <input matInput placeholder="Enter a players name" value="" />
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          >MOST UNEXPECTED PLAYER</span
+        >
+        <mat-form-field class="format-mat-form">
+          <input matInput placeholder="Enter a players name" value="" />
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin">STEAL OF THE DRAFT</span>
+        <mat-form-field class="format-mat-form">
+          <input matInput placeholder="Enter a players name" value="" />
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header">COACH OF THE YEAR</span>
+        <mat-form-field class="format-mat-form">
+          <mat-select [(value)]="selected">
+            <mat-option>select...</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header"
+          >MOST MISMANAGED TEAM (MMT) OF THE YEAR</span
+        >
+        <mat-form-field class="format-mat-form">
+          <mat-select [(value)]="selected">
+            <mat-option>select...</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          >BEST WAIVER PICKUP OF THE YEAR</span
+        >
+        <mat-form-field class="format-mat-form">
+          <input matInput placeholder="Enter a players name" value="" />
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header bottom-margin"
+          >WORST DROP OF THE YEAR</span
+        >
+        <mat-form-field class="format-mat-form">
+          <input matInput placeholder="Enter a players name" value="" />
+        </mat-form-field>
+      </mat-card>
+
+      <mat-card class="format-mat-card">
+        <span class="mat-card-header">WALTER PAYTON MAN OF THE YEAR AWARD</span>
+        <span class="mat-card-detail"
+          >This award goes out to the biggest shit talker of the year.</span
+        >
+        <mat-form-field class="format-mat-form">
+          <mat-select [(value)]="selected">
+            <mat-option>select...</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+    </mat-tab>
+    <mat-tab label="Stats"> Content 2 </mat-tab>
+  </mat-tab-group>
+</div>

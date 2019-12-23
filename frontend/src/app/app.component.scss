@@ -1,0 +1,44 @@
+.header {
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+  background-color: #130e71;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.wrapper {
+  height: 75%;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.format-mat-card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.format-mat-form {
+  width: 10rem;
+}
+
+.mat-card-header {
+  font-weight: 700;
+}
+
+.bottom-margin {
+  margin-bottom: 0.5rem;
+}
+
+.mat-card-detail {
+  font-size: 80%;
+  font-weight: 100;
+  margin-top: 0.75rem;
+}
+
+.format-image {
+  border: 1px solid black;
+}
